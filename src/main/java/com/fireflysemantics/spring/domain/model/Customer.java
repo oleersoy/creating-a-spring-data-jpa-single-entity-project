@@ -5,8 +5,6 @@ import javax.persistence.Entity;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 import static org.springframework.util.Assert.notNull;
 
-;
-
 @Entity
 public class Customer extends AbstractPersistable<Long> {
 
